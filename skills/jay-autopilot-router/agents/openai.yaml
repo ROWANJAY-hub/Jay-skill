@@ -1,0 +1,13 @@
+interface:
+  display_name: Jay Commerce Autopilot
+  short_description: Route title, product-image, QA, and delivery work
+  default_prompt: Use $jay-autopilot-router for a new product-image conversation. If the user says 芝麻开门, coordinate the Alibaba title and reference-faithful image skills through final delivery QA.
+  icon_small: ../matcha-alibaba-title-engine/assets/icon.svg
+  icon_large: ../matcha-alibaba-title-engine/assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
