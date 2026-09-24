@@ -1,0 +1,13 @@
+interface:
+  display_name: 电商产品图保真生成
+  short_description: 保真生成单品、2–11件套、多SKU及批量装电商图片
+  default_prompt: 使用 $generate-faithful-product-images 根据本次参考图生成并逐张验收所需电商产品图片。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

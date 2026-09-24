@@ -1,0 +1,15 @@
+interface:
+  display_name: 抹茶阿里标题引擎
+  short_description: Traffic-first matcha titles with feedback learning
+  default_prompt: Use $matcha-alibaba-title-engine to generate one traffic-first Alibaba
+    title from my matcha product and update its versioned evidence when I provide
+    new data.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
